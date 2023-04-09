@@ -1,0 +1,31 @@
+.login {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 350px;
+  border: 1px solid;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 10px;
+  height: 35vh;
+}
+
+.login button{
+    width: 40%;
+    margin: 0 auto;
+    padding: 8px;
+    font-size: 20px;
+}
+
+.login button:hover{
+    font-weight: 700;
+    color: blue;
+}
+
+.password{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 16px;
+    padding: 4px;
+}
